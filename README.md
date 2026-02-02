@@ -6,7 +6,7 @@ ROB5
 ## Vue d'ensemble
 
 Ce package ros2 jazzy permet de controller ce robot à l'aide d'un Raspberry Pi3:
-![robot](https://github.com/Darkadius/projet-implementation-polytech/-/raw/main/images/robot.jpg)
+![robot](https://github.com/Darkadius/projet-implementation-polytech/blob/main/images/robot.jpg)
 
 Il s'agit d'un robot muni d'un moteur I²C permettant de faire tourner l'aiguille à son extrémité, d'un encodeur quadratique ainsi que d'un IMU.
 Il est possible d'utiliser ce robot dans deux modes différents:
@@ -16,7 +16,7 @@ Il est possible d'utiliser ce robot dans deux modes différents:
 ## Architecture
 
 Le package s'organise ainsi:
-![architecture](https://github.com/Darkadius/projet-implementation-polytech/-/raw/main/images/SADT_Implem.png)
+![architecture](https://github.com/Darkadius/projet-implementation-polytech/blob/main/images/SADT_Implem.png)
 
 Il y a en tout 4 nodes:
 - Camera réalise le traitement d'image du flux vidéo pour detecter la ligne ainsi que son décallage par rapport au centre. Elle publie ensuite le sens de rotation du moteur.
@@ -76,7 +76,7 @@ Le robot est maintenant prêt à être utilisé!
 ### 3 - Utilisation.
 **Boussole**
 1) Placer l'aiguille en position neutre, comme suivant la photo:
-![neutral](https://github.com/Darkadius/projet-implementation-polytech/-/raw/main/images/aiguille.jpg)
+![neutral](https://github.com/Darkadius/projet-implementation-polytech/blob/main/images/aiguille.jpg)
 2) Lancer le programme: ```ros2 launch rob5_implem boussole_launch.xml```
 Le robot s'initialise et l'aiguille pointe maintenant vers le nord: faites tourner le robot et admirez l'aiguille qui se repositionne.
 
