@@ -1,0 +1,6 @@
+<launch>
+    <!-- Launch file for the compass configuration-->
+    <node pkg="rob5_implem" exec="encoder" name="encoder" output="screen"></node>
+    <node pkg="rob5_implem" exec="magneto" name="magneto" output="screen"></node>
+    <node pkg="rob5_implem" exec="hardware" name="hardware" output="screen"></node>
+</launch>

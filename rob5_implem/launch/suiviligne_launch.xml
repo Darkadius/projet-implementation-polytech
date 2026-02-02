@@ -1,0 +1,6 @@
+<launch>
+    <!-- Launch file for the line following configuration-->
+    <node pkg="rob5_implem" exec="camera" name="camera" output="screen"></node>
+    <!--<node pkg="rob5_implem" exec="suivi" name="suivi" output="screen"></node>-->
+    <node pkg="rob5_implem" exec="hardware" name="hardware" output="screen"></node> <!--Trying to merge both hardware nodes, testing required-->
+</launch>
